@@ -183,15 +183,101 @@ footer styles
 .goal-icon .fa-facebook-f{
    margin:20px;
 }
+
 /*Media Queries*/
 
 /*Mobile devices*/
-@media screen and (max-width: 687px){
-  .cont{
-    width:100%;
-  }  
-  .banner-info{
-    font-size: 30px;
+@media screen and (max-width: 576px){
+  /*banners styles*/
+
+.banner{
+    
+    background-color: black;
+    color: #fff;
+    height: 310px;
+    padding: 30px 35px 30px 105px;
+    border-radius: 15px;
+}
+.banners{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/*****home style*****/
+
+.home{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.home-box{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
-  }
+}
+
+
+.home-live{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap:20px;
+    grid-column-gap:20px;
+   
+}
+
+
+
+
+
+/*******
+footer styles
+*******/
+
+
+}
+@media screen and (min-width: 577px) and (max-width:992px){
+     
+    
+   
+    
+    /*****home style*****/
+    
+    .home{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .home-info{
+        background-color: white;
+       
+    }
+   
+    .home-box a button{
+    width:150px;
+    height: 50px;
+   
+    font-size: 16px;
+    }
+    .home-box{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+    
+    
+    .home-live{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap:20px;
+        grid-column-gap:20px;
+       
+    }
+   
 }
