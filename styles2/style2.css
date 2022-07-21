@@ -54,6 +54,14 @@ main{
     font-size: 11px;
     border-radius: 5px;
 }
+.banners .banner-info .btn:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
 .fa-angle-right{
     margin-left:5px;
 }
