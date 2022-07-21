@@ -1,0 +1,207 @@
+/********* Google font ******/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:30px 120px 0;
+}
+
+/*banners styles*/
+
+.banner{
+    
+    background-color: black;
+    color: #fff;
+    height: 310px;
+    padding: 30px 35px 30px 105px;
+    border-radius: 15px;
+}
+.banners{
+    display:flex;
+}
+.banners .banner-info{
+    margin-top:30px;
+    margin-right: 90px;
+    
+}
+.banners .banner-info h1{
+    font-weight: 700px;
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.banners .banner-info p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.banners .banner-info .btn{
+    background-color: #DD0000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+    font-size: 11px;
+    border-radius: 5px;
+}
+.fa-angle-right{
+    margin-left:5px;
+}
+.image{
+    width:581px;
+    height:613px;
+}
+
+/*****upcaming match style*****/
+.container{
+   margin-top:100px;
+}
+
+.upcaming-match{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+/*
+.home-info{
+    background-color: black;
+    border-radius: 10px;
+    width:300px;
+    height: 250px;
+    display:flex;
+    justify-content: cetner;
+    align-items: center;
+}
+*/
+.match-info{
+    background-color: black;
+    border-radius: 10px;
+    width:300px;
+    height: 250px;
+    display:flex;
+    justify-content: cetner;
+    align-items: center;
+}
+
+.match-box{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+.match-box a button{
+width:250px;
+height: 50px;
+margin: 15px 24px 0;
+font-size: 16px;
+}
+.upcoming-btn button{
+    background-color:#DD0000;
+    border:none;
+    border-radius: 5px;
+    color: white;
+}
+.blog-btn button{
+    background-color:white;
+    border:none;
+    border-radius: 5px;
+    color: black;
+}
+.match-live{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:20px;
+    grid-column-gap:20px;
+}
+ 
+.live-match{
+    
+    border:2px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.live-match div{
+    line-height: 20px;
+}
+.match{
+   display:flex;
+   justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+.match p{
+    margin:10px;
+}
+
+.live-detail{
+    
+    line-height: 40px;
+   text-align: center;
+}
+
+.live-detail h3{
+    
+    font-size: 20px;
+}
+.live-detail p{
+    
+    font-size: 16px;
+}
+
+
+/*******
+footer styles
+*******/
+.Goals{
+    background-color: black;
+    
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+
+.goal{
+    text-align:center;
+    line-height: 100px;
+}
+.goal h3{
+    color:white;
+    font-size: 40px;
+}
+.goal hr{
+    width:1280px;;
+}
+.goal-info{
+    color:white;
+}
+.goal-info span{
+    font-size: 16px;
+    margin:20px;
+}
+.goal-icon{
+    
+    color:white;
+}
+.goal-icon .fa-twitter{
+   margin:20px;
+}
+.goal-icon .fa-linkedin-in{
+   margin:20px;
+}
+.goal-icon .fa-facebook-f{
+   margin:20px;
+}
